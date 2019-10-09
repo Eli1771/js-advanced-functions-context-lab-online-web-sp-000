@@ -57,7 +57,7 @@ function hoursWorkedOnDate(date) {
 
 function wagesEarnedOnDate(date) {
   let hours = this.hoursWorkedOnDate(date);
-  return emp.payPerHour * hours;
+  return this.payPerHour * hours;
 }
 
 // function findEmployeeByFirstName(empRecords, name) {
