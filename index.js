@@ -55,10 +55,10 @@ function hoursWorkedOnDate(date) {
   return endTime - startTime;
 }
 
-// function wagesEarnedOnDate(emp, date) {
-//   let hours = hoursWorkedOnDate(emp, date);
-//   return emp.payPerHour * hours;
-// }
+function wagesEarnedOnDate(emp, date) {
+  let hours = hoursWorkedOnDate(emp, date);
+  return emp.payPerHour * hours;
+}
 
 // function findEmployeeByFirstName(empRecords, name) {
 //   return empRecords.find(emp => emp.firstName === name);
