@@ -63,11 +63,11 @@ function findEmployeebyFirstName(empRecords, name) {
 
 //OLD COPIES
 
-// function calculatePayroll(empRecords) {
-//   return empRecords.reduce((total, emp) => {return total + allWagesFor(emp)}, 0);
-// }
+function calculatePayroll(empRecords) {
+  return empRecords.reduce((total, emp) => {return total + allWagesFor(emp)}, 0);
+}
 
-//OLD COPIES
+
 
 
 
