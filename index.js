@@ -61,8 +61,6 @@ function findEmployeebyFirstName(empRecords, name) {
   return empRecords.find(emp => emp.firstName === name);
 }
 
-//OLD COPIES
-
 function calculatePayroll(empRecords) {
   return empRecords.reduce((total, emp) => {return total + allWagesFor(emp)}, 0);
 }
