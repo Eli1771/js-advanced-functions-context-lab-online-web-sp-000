@@ -60,9 +60,9 @@ function wagesEarnedOnDate(date) {
   return this.payPerHour * hours;
 }
 
-// function findEmployeeByFirstName(empRecords, name) {
-//   return empRecords.find(emp => emp.firstName === name);
-// }
+function findEmployeeByFirstName(empRecords, name) {
+  return empRecords.find(emp => emp.firstName === name);
+}
 
 // function calculatePayroll(empRecords) {
 //   return empRecords.reduce((total, emp) => {return total + allWagesFor(emp)}, 0);
