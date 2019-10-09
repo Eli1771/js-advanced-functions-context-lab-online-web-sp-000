@@ -57,7 +57,7 @@ function wagesEarnedOnDate(date) {
   return this.payPerHour * hours;
 }
 
-function findEmployeeByFirstName(empRecords, name) {
+function findEmployeebyFirstName(empRecords, name) {
   return empRecords.find(emp => emp.firstName === name);
 }
 
