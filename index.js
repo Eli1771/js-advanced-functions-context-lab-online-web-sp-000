@@ -46,9 +46,6 @@ function createTimeOutEvent(dateTime) {
   return this;
 }
 
-
-//OLD COPIES
-
 function hoursWorkedOnDate(date) {
   let startTime = parseInt(this.timeInEvents.find(punch => punch.date === date).hour)/100;
   let endTime = parseInt(this.timeOutEvents.find(punch => punch.date === date).hour)/100;
@@ -63,6 +60,8 @@ function wagesEarnedOnDate(date) {
 function findEmployeeByFirstName(empRecords, name) {
   return empRecords.find(emp => emp.firstName === name);
 }
+
+//OLD COPIES
 
 // function calculatePayroll(empRecords) {
 //   return empRecords.reduce((total, emp) => {return total + allWagesFor(emp)}, 0);
