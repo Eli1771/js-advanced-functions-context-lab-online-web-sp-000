@@ -60,11 +60,6 @@ function hoursWorkedOnDate(date) {
 //   return emp.payPerHour * hours;
 // }
 
-// function allWagesFor(emp) {
-//   let dates = emp.timeInEvents.map(t => t.date);
-//   return dates.reduce((r, date) => {return r + wagesEarnedOnDate(emp, date)}, 0);
-// }
-
 // function findEmployeeByFirstName(empRecords, name) {
 //   return empRecords.find(emp => emp.firstName === name);
 // }
